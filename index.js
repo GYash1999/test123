@@ -6,8 +6,6 @@ function operateOnArray(array, operation) {
   }
   return result;
 }
-
-// Example usage of the operateOnArray function
 const numbers = [1, 2, 3, 4, 5];
 const squaredNumbers = operateOnArray(numbers, (x) => x * x);
 console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
